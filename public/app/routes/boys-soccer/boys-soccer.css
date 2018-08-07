@@ -1,0 +1,71 @@
+.boys-soccer-content-wrapper .image-large-boys-soccer {
+  min-height: 502px;
+  height: 72vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.boys-soccer-content-wrapper .image-large-boys-soccer.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-sp/Boys/0407-Boys-Football-PWH/US/SU16_0407_YA_GF_GBL_PWH_NA.jpg.transform/full-screen/SU16_0407_YA_GF_GBL_PWH_NA.jpg");
+}
+.boys-soccer-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-boys-soccer .text-wrapper{
+  padding-top: 200px;
+  margin-left: 30px;
+}
+.image-large-boys-soccer .text-wrapper h2{
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+  line-height: 48px;
+}
+.image-large-boys-soccer .text-wrapper p{
+  font-size: 18px;
+  padding-bottom: 9px;
+}
+.boys-soccer-mini-desc {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 30px;
+  font-family: Arial;
+}
+
+.boys-under-image-wrapper-soccer {
+  padding-top: 120px;
+  font-weight: bold;
+}
+.boys-header-under-image-soccer {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 400px;
+}
+.boys-header-under-image-soccer div {
+  text-align: center;
+}
+
+.boys-running-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.boys-soccer-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.boys-basketball-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.boys-lifestyle-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.boys-jordan-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

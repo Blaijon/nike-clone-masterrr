@@ -1,0 +1,50 @@
+<div class="womens-running-content-wrapper">
+  <section class="image-large-womens-running section-one">
+    <div class="womens-running-inner-wrapper">
+      <div class="text-wrapper">
+        <h2 class="oswald">Women Running Shoe Guide</h2>
+        <p class='roboto'>Find the perfect shoes for your run</p>
+        <p class="return roboto">60-Day Free Returns. Wear it, test it, keep what you like.</p>
+      </div>
+    </div>
+    <div class='longer-stronger-faster-container'>
+      <div class='wr-ask-expert-wrapper wr-text-wrapper'>
+        <!-- <h3 class='roboto'>Ask an Expert</h3> -->
+      </div>
+      <div class='wr-longer-wrapper wr-text-wrapper'>
+        <h1 class='oswald'>RUN LONGER</h1>
+        <h2 class='roboto'>Soft & Cushioned</h2>
+      </div>
+      <div class='wr-stronger-wrapper wr-text-wrapper'>
+        <h1 class='oswald'>RUN STRONGER</h1>
+        <h2 class='roboto'>Natural & Flexible</h2>
+      </div>
+      <div class='wr-faster-wrapper wr-text-wrapper'>
+        <h1 class='oswald'>RUN FASTER</h1>
+        <h2 class='roboto'>Responsive & Lightweight</h2>
+      </div>
+    </div>
+  </section>
+  <section class="shoe-option-title">
+    <div class="title-container">
+      <h2 class="oswald">Women's Running Shoe <i>(10)</i></h2>
+    </div>
+    <div class="sort-by-container">
+      <select class="oswald" name="sort-by">
+        <option selected disabled>Sort By:</option>
+        <option value="newest">Newest</option>
+        <option value="highest">Highest Rated</option>
+        <option value="expensive-cheap">$$-$</option>
+        <option value="cheap-expensive">$-$$</option>
+      </select>
+    </div>
+  </section>
+  <section class="shoe-options-container">
+    <div ng-repeat="shoe in mensshoes"class="shoe-options-box box-num-1" id="grey-border">
+        <a ui-sref="individual-shoe({id:shoe.id})"><img ng-src="{{shoe.img}}" alt=""></a>
+        <p class="shoe-repeat-name">{{shoe.name}}</p>
+        <p class="shoe-repeat-mini-desc">{{shoe.mini_desc}}</p>
+        <p class="shoe-repeat-price"> ${{shoe.price}}</p>
+    </div>
+  </section>
+</div>

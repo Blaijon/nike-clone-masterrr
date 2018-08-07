@@ -1,0 +1,97 @@
+.men-soccer-content-wrapper .image-large-men-soccer {
+  min-height: 300px;
+  height: 53vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #111111;
+}
+.men-soccer-content-wrapper .image-large-men-soccer.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/Football/NA/NA_Soccer_PWH.jpg.transform/full-screen/NA_Soccer_PWH.jpg");
+}
+.men-soccer-inner-wrapper {
+  max-width: 10060px;
+}
+.image-large-men-soccer .text-wrapper{
+  margin-top: 200px;
+}
+.image-large-men-soccer .text-wrapper h2{
+  max-width: 250px;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-men-soccer .text-wrapper p{
+  font-size: 14px;
+  padding-bottom: 9px;
+  max-width: 160px;
+}
+
+.shoe-subtitle-section {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 450px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shoe-subtitle-wrapper {
+display: flex;
+justify-content: space-between;;
+align-items: center;
+}
+.mercurial {
+  margin-right: 30px;
+}
+.hypervenom {
+  margin-left: 130px;
+}
+.magista {
+  margin-left: 120px;
+}
+.tiempo {
+  margin-left: 90px;
+}
+.soccerx {
+  margin-left: 140px;
+}
+.mercurial h2{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.hypervenom h2{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.magista h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.tiempo h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.soccerx h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.mercurial p {
+  margin-top: 10px;
+  font-weight: 100;
+}
+.hypervenom p {
+  margin-top: 10px;
+  font-weight: 100;
+}
+.magista p {
+  margin-top: 10px;
+  font-weight: 100;
+}
+.tiempo p {
+  margin-top: 10px;
+  font-weight: 100;
+}
+.soccerx p {
+    margin-top: 10px;
+    font-weight: 100;
+}

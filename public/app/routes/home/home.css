@@ -1,0 +1,145 @@
+.home-content-wrapper .image-large{
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+
+.home-content-wrapper .image-large.section-one{
+  background-image: url("./../app/images/home/give_nike_gray.jpg");
+}
+.home-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large .text-wrapper{
+  max-width: 230px;
+}
+.image-large .text-wrapper h2{
+  font-size: 29px;
+  line-height: 41px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large .text-wrapper p{
+  font-size: 15px;
+  line-height: 20px;
+  padding-bottom: 9px;
+}
+.image-large .text-wrapper a {
+  font-size: 11px;
+  line-height: 13px;
+  color: #fff;
+  text-decoration: none;
+}
+.image-large .text-wrapper a:hover {
+  text-decoration: underline;
+}
+
+.home-content-wrapper .image-large.section-two{
+  position: relative;
+  height: 0px;
+  min-height: 0;
+  padding-bottom: 43.750276%; /*img-height / img-width * 100*/
+}
+
+#bgvid {
+  position: absolute;
+  top: 0;
+  max-width: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  width: 100%;
+}
+
+.home-content-wrapper .image-large.section-three{
+  background-image: url("./../app/images/home/give-creativity.jpg");
+}
+
+.article-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 49px;
+  margin-bottom: 49px;
+}
+.section-four{
+  background-color: rgb(242, 242, 242);
+}
+
+article {
+  width: 24%;
+  min-width: 250px;
+  margin: 5px;
+}
+
+article h3 {
+  color: black;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  padding-bottom: 24px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+article li {
+  color: #666;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+  padding-bottom: 9px;
+}
+
+article img {
+  max-width: 100%;
+}
+
+article a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 980px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 650px) {
+  .image-large.section-two video{
+    display: none;
+  }
+  .section-two {
+    background-image: url("/app/images/home/photo-video-replace.jpg");
+  }
+  .home-content-wrapper .image-large.section-two{
+    height: auto;
+    min-height: 340px;
+    padding-bottom: 0px;
+  }
+  .home-content-wrapper .image-large{
+    min-height: 340px;
+  }
+
+
+}
+
+@media only screen and (max-width: 520px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+
+}

@@ -1,0 +1,38 @@
+.boys-jordan-content-wrapper .image-large-boys-jordan {
+  min-height: 502px;
+  height: 72vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.boys-jordan-content-wrapper .image-large-boys-jordan.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/SHOP/YoungAthletes/Boys/1004_B_PWH_FOOTWEAR/120516_GL_FootwearFinder_Update_5.jpg.transform/full-screen/120516_GL_FootwearFinder_Update_5.jpg");
+}
+.boys-jordan-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-boys-jordan .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-boys-jordan .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-boys-jordan .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.easter-egg {
+  background-color: blue;
+  height: 30px;
+  width: 30px;
+}

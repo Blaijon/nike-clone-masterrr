@@ -1,0 +1,60 @@
+<div class="womens-training-content-wrapper">
+  <section class="image-large-womens-training section-one">
+    <div class="womens-training-inner-wrapper">
+      <div class="text-wrapper">
+        <h2 class="oswald">FIND YOUR</br> TRAINING SHOES</h2>
+        <p class='roboto'>Start by choosing your workout focus</p>
+      </div>
+    </div>
+    <div class='studio-gym-cardio-high-container'>
+      <div class='wt-ask-wrapper wt-text-wrapper'>
+        <h1 class='oswald'></h1>
+        <h2 class='roboto'></h2>
+      </div>
+      <div class='wt-blank-wrapper wt-text-wrapper'>
+        <h1 class='oswald'></h1>
+        <h2 class='roboto'></h2>
+      </div>
+      <div class='wt-studio-wrapper wt-text-wrapper'>
+        <h1 class='oswald'>STUDIO CLASSES</h1>
+        <h2 class='roboto'>Yoga, Barre, Pilates</h2>
+      </div>
+      <div class='wt-gym-wrapper wt-text-wrapper'>
+        <h1 class='oswald'>GYM WORKOUTS</h1>
+        <h2 class='roboto'>Strength Training, Free</br>Weights, Cardio Machines</h2>
+      </div>
+      <div class='wt-cardio-wrapper wt-text-wrapper'>
+        <h1 class='oswald'>CARDIO</h1>
+        <h2 class='roboto'>Short Runs, Kickboxing,</br>Dance, Circuits</h2>
+      </div>
+      <div class='wt-high-wrapper wt-text-wrapper'>
+        <h1 class='oswald'>HIGH INTENSITY</h1>
+        <h2 class='roboto'>HIIT, Weightlifting</h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="shoe-option-title">
+    <div class="title-container">
+      <h2 class="oswald">Women's Gym & Training Shoes <i>(10)</i></h2>
+    </div>
+    <div class="sort-by-container">
+      <select class="oswald" name="sort-by">
+        <option selected disabled>Sort By:</option>
+        <option value="newest">Newest</option>
+        <option value="highest">Highest Rated</option>
+        <option value="expensive-cheap">$$-$</option>
+        <option value="cheap-expensive">$-$$</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="shoe-options-container">
+    <div ng-repeat="shoe in trainingShoes" class="shoe-options-box box-num-1" id="grey-border">
+        <a ui-sref="individual-shoe({id:shoe.id})"><img ng-src="{{shoe.img}}" alt=""></a>
+        <p class="shoe-repeat-name">{{shoe.name}}</p>
+        <p class="shoe-repeat-mini-desc">{{shoe.mini_desc}}</p>
+        <p class="shoe-repeat-price"> ${{shoe.price}}</p>
+    </div>
+  </section>
+</div>

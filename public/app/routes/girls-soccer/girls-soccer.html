@@ -1,0 +1,56 @@
+<div class="girls-soccer-content-wrapper">
+  <section class="image-large-girls-soccer section-one">
+    <div class="girls-soccer-inner-wrapper">
+      <div class="text-wrapper">
+        <h2 class="oswald">GIRL'S SOCCER <br> CLEAT GUIDE</h2>
+        <p class="roboto">Help her step up her game <br> with the perfect fit.</p>
+      </div>
+    </div>
+    <div class="girls-header-under-image-soccer">
+      <div class='gs-in-between'>
+        <h1 class="girls-soccer-under-image">MERCURIAL</h1>
+        <p class="girls-soccer-mini-desc">Explosive Speed</p>
+      </div>
+      <div class='gs-in-between'>
+        <h1 class="girls-soccer-under-image">MAGISTA</h1>
+        <p class="girls-soccer-mini-desc">Unstoppable Playmaking</p>
+      </div>
+      <div class='gs-in-between'>
+        <h1 class="girls-soccer-under-image">HYPERVENOM</h1>
+        <p class="girls-soccer-mini-desc">Deadly Agility</p>
+      </div>
+      <div class='gs-in-between'>
+        <h1 class="girls-soccer-under-image">TIEMPO</h1>
+        <p class="girls-soccer-mini-desc">Dominating Touch</p>
+      </div>
+      <div class='gs-in-between'>
+        <h1 class="girls-soccer-under-image">NIKEFOOTBALLX</h1>
+        <p class="girls-soccer-mini-desc">5-A-Side</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="shoe-option-title">
+    <div class="title-container">
+      <h2 class="oswald">Girl's Soccer Shoes <i>(10)</i></h2>
+    </div>
+    <div class="sort-by-container">
+      <select class="oswald" name="sort-by">
+        <option selected disabled>Sort By:</option>
+        <option value="newest">Newest</option>
+        <option value="highest">Highest Rated</option>
+        <option value="expensive-cheap">$$-$</option>
+        <option value="cheap-expensive">$-$$</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="shoe-options-container">
+    <div ng-repeat="shoe in soccerShoes" class="shoe-options-box box-num-1">
+        <a ui-sref="individual-shoe({id:shoe.id})"><img ng-src="{{shoe.img}}" alt=""></a>
+        <p class="shoe-repeat-name">{{shoe.name}}</p>
+        <p class="shoe-repeat-mini-desc">{{shoe.mini_desc}}</p>
+        <p class="shoe-repeat-price"> ${{shoe.price}}</p>
+    </div>
+  </section>
+</div>

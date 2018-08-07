@@ -1,0 +1,56 @@
+<div class="boys-running-content-wrapper">
+  <section class="image-large-boys-running section-one">
+    <div class="home-inner-wrapper">
+      <div class="text-wrapper">
+        <h2 class="oswald">FIND THE</br> PERFECT PAIR</h2>
+        <p class='roboto'>For sport. For play. For everyday.</p>
+      </div>
+    </div>
+    <div class="girls-under-image-wrapper oswald">
+      <div class="girls-header-under-image">
+        <div>
+          <h1 ui-sref="boys-running-shoes" class="girls-running-under-image">RUNNING</h1>
+        </div>
+        <div>
+          <h1 ui-sref="boys-soccer" class="girls-soccer-under-image">SOCCER</h1>
+        </div>
+        <div>
+          <h1 ui-sref="boys-basketball" class="girls-basketball-under-image">BASKETBALL</h1>
+        </div>
+        <div>
+          <h1 ui-sref="boys-lifestyle" class="girls-lifestyle-under-image">LIFESTYLE</h1>
+        </div>
+        <div>
+          <h1 ui-sref="boys-jordan" class="girls-jordan-under-image">JORDAN</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="shoe-option-title">
+    <div class="title-container">
+      <h2 class="oswald">Boys' Running Shoes <i>(10)</i></h2>
+    </div>
+    <div class="sort-by-container">
+      <select class="oswald" name="sort-by">
+        <option selected disabled>Sort By:</option>
+        <option value="newest">Newest</option>
+        <option value="highest">Highest Rated</option>
+        <option value="expensive-cheap">$$-$</option>
+        <option value="cheap-expensive">$-$$</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="shoe-options-container">
+    <div ng-repeat="shoe in boysShoes"class="shoe-options-box box-num-1" id="grey-border">
+        <a ui-sref="individual-shoe({id:shoe.id})"><img ng-src="{{shoe.img}}" alt=""></a>
+        <p class="shoe-repeat-name">{{shoe.name}}</p>
+        <p class="shoe-repeat-mini-desc">{{shoe.mini_desc}}</p>
+        <p class="shoe-repeat-price"> ${{shoe.price}}</p>
+    </div>
+
+
+
+  </section>
+</div>

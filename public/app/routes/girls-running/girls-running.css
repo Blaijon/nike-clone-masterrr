@@ -1,0 +1,34 @@
+.girls-running-content-wrapper .image-large-girls-running {
+  min-height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.girls-running-content-wrapper .image-large-girls-running.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/SHOP/YoungAthletes/Girls/10_04_G_PWH_FOOTWEAR/120516_GL_GirlsFootwearFinder_1.jpg.transform/full-screen/120516_GL_GirlsFootwearFinder_1.jpg");
+}
+.girls-running-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-girls-running .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-girls-running .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-girls-running .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+.girls-header-under-image div h1:visited {
+  text-decoration: none;
+}

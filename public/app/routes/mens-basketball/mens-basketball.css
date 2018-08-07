@@ -1,0 +1,34 @@
+.men-basketball-content-wrapper .image-large-men-basketball {
+  min-height: 300px;
+  height: 53vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.men-basketball-content-wrapper .image-large-men-basketball.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/Basketball/0725_PWH/All_shoes/BB_Mens_Shoes_PWH.jpg.transform/full-screen/BB_Mens_Shoes_PWH.jpg");
+}
+.men-basketball-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-men-basketball .text-wrapper{
+  max-width: 400px;
+}
+.image-large-men-basketball .text-wrapper h2{
+  font-size: 2.75rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.image-large-men-basketball .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}

@@ -1,0 +1,40 @@
+.men-running-content-wrapper .image-large-men-running {
+  min-height: 300px;
+  height: 63vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.men-running-content-wrapper .image-large-men-running.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/Running/NA/HO16_RUNNING_PWH_v3_1600x528px.jpg.transform/full-screen/HO16_RUNNING_PWH_v3_1600x528px.jpg");
+}
+.men-running-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.image-large-men-running .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-men-running .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-men-running .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+/*#grey-border {
+  border: 1px solid rgba(221,221,221,0);
+}
+#grey-border:hover {
+  border: 1px solid #ddd;
+}*/
